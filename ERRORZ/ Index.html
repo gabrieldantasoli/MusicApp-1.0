@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>MUSICS</title>
+  </head>
+  <body>
+    <div class="start" id="strt">
+      <img src="imgs/play.svg" alt="start"  id="start"/>
+    </div>
+    <div id="interface">
+      <img src="" id="img"/>
+      <div class="description">
+        <h2></h2>
+        <em></em>
+      </div>
+      <div class="duraction">
+        <div class="progress">
+          <progress value="0" max="1"></progress>
+          <div class="circle"></div>
+        </div>
+        <div class="time">
+          <p class="beggin">0:00</p>
+          <p class="end">0:00</p>
+        </div>
+      </div>
+      <div class="player">
+        <img src="imgs/previous.svg" id="previous">
+        <img src="imgs/pause.svg" id="pause"/>
+        <img src="imgs/play.svg" id="play"/>
+        <img src="imgs/next.svg" id="next"/>
+      </div>
+      <div class="repeat">
+        <div class="repeat1" id="one">
+          <img id="refresh" src="imgs/refresh.svg" />
+        </div>
+        <div class="repeat1" id="two">
+          <img id="forward" src="imgs/forward.svg" />
+        </div>
+      </div>
+      <audio src="Audio/arcade.mp3" ></audio>
+      <div id="details">
+        
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="MUSIC.js"></script>
+  </body>
+</html>
